@@ -23,6 +23,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
+      "bundler": "metro",
       "build": {
         "babel": {
           "include": ["react-router-dom"],
