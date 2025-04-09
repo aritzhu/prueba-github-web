@@ -3,11 +3,14 @@
   "license": "0BSD",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://aritzhu.github.io/prueba-github-web/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -20,6 +23,7 @@
     "@react-navigation/stack": "^7.2.10",
     "expo": "~52.0.43",
     "expo-status-bar": "~2.0.1",
+    "gh-pages": "^6.3.0",
     "react": "18.3.1",
     "react-dom": "^18.3.1",
     "react-native": "0.76.9",
